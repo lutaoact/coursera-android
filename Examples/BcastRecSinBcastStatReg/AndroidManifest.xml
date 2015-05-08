@@ -15,7 +15,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="course.examples.broadcastreceiver.singlebroadcaststaticregistration.SimpleBroadcast"
+            android:name=".SimpleBroadcast"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,7 @@
         </activity>
 
         <receiver
-            android:name="course.examples.broadcastreceiver.singlebroadcaststaticregistration.Receiver"
+            android:name=".Receiver"
             android:exported="false" >
             <intent-filter>
                 <action android:name="course.examples.BroadcastReceiver.show_toast" >
